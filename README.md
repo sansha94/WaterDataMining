@@ -1,205 +1,44 @@
 # Water Data Mining
 
-<table>
-    <tr>
-        <th>Attribute</th>
-        <th>Description</th>
-    </tr>
 
-    <tr>
-
-    <tr>
-    <td>amount_tsh</td>
-    <td>Total static head (amount water available to waterpoint)</td>
-    </tr>
-
-    <tr>
-    <td>date_recorded</td>
-    <td>The date the row was entered</td>
-    </tr>
-
-    <tr>
-    <td>funder</td>
-    <td>Who funded the well</td>
-    </tr>
-
-    <tr>
-    <td>gps_height</td>
-    <td>Altitude of the well</td>
-    </tr>
-
-    <tr>
-    <td>installer</td>
-    <td>Organization that installed the well</td>
-    </tr>
-
-    <tr>
-    <td>longitude</td>
-    <td>GPS coordinate</td>
-    </tr>
-
-    <tr>
-    <td>latitude</td>
-    <td>GPS coordinate</td>
-    </tr>
-
-    <tr>
-    <td>wpt_name</td>
-    <td>Name of the waterpoint if there is one</td>
-    </tr>
-
-    <tr>
-    <td>num_private</td>
-    <td></td>
-    </tr>
-
-    <tr>
-    <td>basin</td>
-    <td>Geographic water basin</td>
-    </tr>
-
-    <tr>
-    <td>subvillage</td>
-    <td>Geographic location</td>
-    </tr>
-
-    <tr>
-    <td>region</td>
-    <td>Geographic location</td>
-    </tr>
-
-    <tr>
-    <td>region_code</td>
-    <td>Geographic location (coded)</td>
-    </tr>
-
-    <tr>
-    <td>district_code</td>
-    <td>Geographic location (coded)</td>
-    </tr>
-
-    <tr>
-    <td>lga</td>
-    <td>Geographic location</td>
-    </tr>
-
-    <tr>
-    <td>ward</td>
-    <td>Geographic location</td>
-    </tr>
-
-    <tr>
-    <td>population</td>
-    <td>Population around the well</td>
-    </tr>
-
-    <tr>
-    <td>public_meeting</td>
-    <td>True/False</td>
-    </tr>
-
-    <tr>
-    <td>recorded_by</td>
-    <td>Group entering this row of data</td>
-    </tr>
-
-    <tr>
-    <td>scheme_management</td>
-    <td>Who operates the waterpoint</td>
-    </tr>
-
-    <tr>
-    <td>scheme_name</td>
-    <td>Who operates the waterpoint</td>
-    </tr>
-
-    <tr>
-    <td>permit</td>
-    <td>If the waterpoint is permitted</td>
-    </tr>
-
-    <tr>
-    <td>construction_year</td>
-    <td>Year the waterpoint was constructed</td>
-    </tr>
-
-    <tr>
-    <td>extraction_type</td>
-    <td>The kind of extraction the waterpoint uses</td>
-    </tr>
-
-    <tr>
-    <td>extraction_type_group</td>
-    <td>The kind of extraction the waterpoint uses</td>
-    </tr>
-
-    <tr>
-    <td>extraction_type_class</td>
-    <td>The kind of extraction the waterpoint uses</td>
-    </tr>
-
-    <tr>
-    <td>management</td>
-    <td>How the waterpoint is managed</td>
-    </tr>
-
-    <tr>
-    <td>management_group</td>
-    <td>How the waterpoint is managed</td>
-    </tr>
-
-    <tr>
-    <td>payment</td>
-    <td>What the water costs</td>
-    </tr>
-
-    <tr>
-    <td>payment_type</td>
-    <td>What the water costs</td>
-    </tr>
-
-    <tr>
-    <td>water_quality</td>
-    <td>The quality of the water</td>
-    </tr>
-
-    <tr>
-    <td>quality_group</td>
-    <td>The quality of the water</td>
-    </tr>
-
-    <tr>
-    <td>quantity</td>
-    <td>The quantity of water</td>
-    </tr>
-
-    <tr>
-    <td>quantity_group</td>
-    <td>The quantity of water</td>
-    </tr>
-
-    <tr>
-    <td>source</td>
-    <td>The source of the water</td>
-    </tr>
-
-    <tr>
-    <td>source_type</td>
-    <td>The source of the water</td>
-    </tr>
-
-    <tr>
-    <td>source_class</td>
-    <td>The source of the water</td>
-    </tr>
-
-    <tr>
-    <td>waterpoint_type</td>
-    <td>The kind of waterpoint</td>
-    </tr>
-
-    <tr>
-    <td>waterpoint_type_group</td>
-    <td>The kind of waterpoint</td>
-    </tr>
-</table>
+Attribute | Description
+--- | ---
+**amount_tsh** | Total static head (amount water available to waterpoint)
+**date_recorded** | The date the row was entered
+**funder** | Who funded the well
+**gps_height** | Altitude of the well
+**installer** | Organization that installed the well
+**longitude** | GPS coordinate
+**latitude** | GPS coordinate
+**wpt_name** | Name of the waterpoint if there is one
+**num_private** | 
+**basin** | Geographic water basin
+**subvillage** | Geographic location
+**region** | Geographic location
+**region_code** | Geographic location (coded)
+**district_code** | Geographic location (coded)
+**lga** | Geographic location
+**ward** | Geographic location
+**population** | Population around the well
+**public_meeting** | True/False
+**recorded_by** | Group entering this row of data
+**scheme_management** | Who operates the waterpoint
+**scheme_name** | Who operates the waterpoint
+**permit** | If the waterpoint is permitted
+**construction_year** | Year the waterpoint was constructed
+**extraction_type** | The kind of extraction the waterpoint uses
+**extraction_type_group** | The kind of extraction the waterpoint uses
+**extraction_type_class** | The kind of extraction the waterpoint uses
+**management** | How the waterpoint is managed
+**management_group** | How the waterpoint is managed
+**payment** | What the water costs
+**payment_type** | What the water costs
+**water_quality** | The quality of the water
+**quality_group** | The quality of the water
+**quantity** | The quantity of water
+**quantity_group** | The quantity of water
+**source** | The source of the water
+**source_type** | The source of the water
+**source_class** | The source of the water
+**waterpoint_type** | The kind of waterpoint
+**waterpoint_type_group** | The kind of waterpoint
