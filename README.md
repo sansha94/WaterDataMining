@@ -1,5 +1,10 @@
-# Water Data Mining
+## Water Data Mining
 
+### About
+This practice competition is hosted by [DrivenData](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).
+
+
+### Feature Description
 
 Attribute | Description
 --- | ---
@@ -11,7 +16,7 @@ Attribute | Description
 **longitude** | GPS coordinate
 **latitude** | GPS coordinate
 **wpt_name** | Name of the waterpoint if there is one
-**num_private** | 
+**num_private** |
 **basin** | Geographic water basin
 **subvillage** | Geographic location
 **region** | Geographic location
