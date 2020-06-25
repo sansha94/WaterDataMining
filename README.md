@@ -3,6 +3,10 @@
 ### About
 This practice competition is hosted by [DrivenData](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).
 
+A nice example of data collected in real-time :thumbsup:
+
+You can find the mistakes done by humans while collecting the data.
+
 
 ### Feature Description
 
